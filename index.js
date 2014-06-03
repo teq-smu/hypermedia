@@ -27,7 +27,7 @@ app
 	var body = req.body;
 	switch (body.action) {
 		case 'getMovies':
-			res.send("Requested API getMovies");
+			res.send("Requested API getMovie");
 			break;
 	}
 })
